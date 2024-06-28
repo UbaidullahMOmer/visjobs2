@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+    min-height: 100dvh;
+    background-color: #FCFCFC;
+}
+
+.MuiChartsAxis-directionY .MuiChartsAxis-tickLabel tspan {
+    fill: #CACACA !important;
+}
+
+.MuiChartsAxis-tickLabel tspan {
+    fill: #4A4C56 !important;
+}
+
+.MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root {
+    rx: 8;
+    ry: 8;
+}
+
+.MuiChartsAxis-line {
+    margin-top: 10px;
+    stroke: #E5E5E5 !important;
+}
+
+.MuiChartsAxis-directionY .MuiChartsAxis-line {
+    display: none;
+}
+
+.MuiChartsAxis-directionY .MuiChartsAxis-tickContainer line,
+.MuiChartsAxis-directionX .MuiChartsAxis-tickContainer line {
+    display: none;
+}
+
+.verticalBoldColGraph2 {
+    .css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(3) {
+        fill: #6388E2 !important;
+    }
+
+    .css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(4) {
+        fill: #4571DD !important;
+    }
+
+    .css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(5) {
+        fill: #B7C8F2 !important;
+    }
+
+    .css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(6) {
+        fill: #94AEEB !important;
+    }
+}
+
+.css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(1) {
+    fill: #B7C8F2 !important;
+}
+
+.css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(2) {
+    fill: #94AEEB !important;
+}
+
+.css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(3) {
+    fill: #6388E2 !important;
+}
+
+.css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(4) {
+    fill: #4571DD !important;
+}
+
+.css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(5) {
+    fill: #164ED4 !important;
+}
+
+.css-1frp6yo-MuiResponsiveChart-container .MuiBarElement-root.MuiBarElement-series-auto-generated-id-0.css-qgsnye-MuiBarElement-root:nth-child(6) {
+    fill: #6388E2 !important;
+}
+
+.base-Popper-root {
+    border-radius: 8px;
+    background-color: #FFF;
+
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+
+    .MuiChartsTooltip-root.css-12667wq-MuiChartsTooltip-container {
+        box-shadow: none !important;
+        background-color: transparent !important;
+        color: #344054 !important;
+        font-size: 12px !important;
+        margin: 0 !important;
+    }
+
+    thead {
+        border: none !important;
+
+        td {
+            border: none !important;
+        }
+    }
+
+
+    .css-s3y5yc-MuiChartsTooltip-cell {
+        padding: 0 !important;
+    }
+
+    .MuiChartsTooltip-valueCell.MuiChartsTooltip-cell.css-s3y5yc-MuiChartsTooltip-cell {
+        padding: 8px 12px !important;
+        position: relative;
+    }
+
+    .MuiChartsTooltip-valueCell.MuiChartsTooltip-cell.css-s3y5yc-MuiChartsTooltip-cell,
+    .MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root {
+        font-size: 12px !important;
+    }
+
+    thead {
+        .MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root {
+            display: none;
+        }
+    }
+
+    .MuiChartsTooltip-valueCell.MuiChartsTooltip-cell.css-s3y5yc-MuiChartsTooltip-cell::after,
+    .MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root::after {
+        content: '';
+        position: absolute;
+        top: 85%;
+        left: 45%;
+        width: 16px;
+        height: 16px;
+        transform: rotate(45deg) translateX(-50%);
+        background-color: #FFF;
+        box-shadow: 0px 32px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+    }
+
+    .MuiChartsTooltip-markCell.MuiChartsTooltip-cell.css-s3y5yc-MuiChartsTooltip-cell {
+        display: none;
+    }
+}
