@@ -37,6 +37,7 @@ function MmaangCaseGraph() {
           },
         ]}
         height={560}
+        borderRadius={5}
         margin={{ left: 30, right: 30, top: 30, bottom: 30 }}
         grid={{ vertical: true, horizontal: true }}
         tooltip={{ show: true }}

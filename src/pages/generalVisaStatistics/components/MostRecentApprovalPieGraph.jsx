@@ -26,6 +26,7 @@ function MostRecentApprovalPieGraph() {
           },
         ]}
         colors={palette}
+        borderRadius={5}
         width={400}
         height={400}
       />

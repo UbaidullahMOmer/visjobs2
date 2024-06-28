@@ -11,6 +11,8 @@ export default function ChartsOverviewDemo() {
         },
       ]}
       height={420}
+
+      borderRadius={5}
       xAxis={[{ data: ['60-70K', '70-80K', '80-90K', '90-100K', '100-110K', '110-120'], scaleType: 'band', labelStyle: {color: '#4A4C56'} }]}
       yAxis={[{ data: [0, 100], scaleType: 'linear', labelStyle: {color: '#4A4C56'} }]} 
       margin={{ top: 10, bottom: 30, left: 40, right: 10 }}

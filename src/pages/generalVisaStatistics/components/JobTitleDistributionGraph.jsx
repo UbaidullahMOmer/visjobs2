@@ -16,6 +16,7 @@ function JobTitleDistributionGraph() {
   return (
     <>
       <BarChart
+      borderRadius={5}
         dataset={dataset}
         yAxis={[{ scaleType: "band", dataKey: "jobType" }]}
         series={[
